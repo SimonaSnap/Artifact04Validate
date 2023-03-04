@@ -9,6 +9,7 @@
     <title>
       Validator Artifact
     </title>
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
     <style type="text/css" xml:space="preserve">
 BODY, P,TD{ font-family: Arial,Verdana,Helvetica, sans-serif; font-size: 10pt }
 A{font-family: Arial,Verdana,Helvetica, sans-serif;}
@@ -18,7 +19,7 @@ B {	font-family : Arial, Helvetica, sans-serif;	font-size : 12px;	font-weight : 
     type="text/javascript" xml:space="preserve"></script>
   </head>
   <body>
-    <form action="" name="myform" id="myform">
+    <form action="thankyou.html" onsubmit="return validateForm();">
       <table cellspacing="2" cellpadding="2" border="0">
         <tr>
           <td align="right">
@@ -214,6 +215,7 @@ B {	font-family : Arial, Helvetica, sans-serif;	font-size : 12px;	font-weight : 
           </td>
         </tr>
       </table>
+      <div id="errorMessages"></div>
     </form><script src="./script.js"></script>
   </body>
 </html>
