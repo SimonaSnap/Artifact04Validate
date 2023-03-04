@@ -13,6 +13,7 @@ A{font-family: Arial,Verdana,Helvetica, sans-serif;}
 B {	font-family : Arial, Helvetica, sans-serif;	font-size : 12px;	font-weight : bold;}
 .error_strings{ font-family:Verdana; font-size:10px; color:#660000;}
 </style>
+<script src="gen_validatorv4.js" type="text/javascript"></script>
   </head>
   <body>
     <form onsubmit="return validateForm();">
@@ -212,6 +213,8 @@ B {	font-family : Arial, Helvetica, sans-serif;	font-size : 12px;	font-weight : 
         </tr>
       </table>
       <div id="errorMessages"></div>
-    </form><script src="./script.js"></script>
+    </form>
+    <script type="text/javascript"> var frmvalidator  = new Validator("myform"); </script>
+    <!--<script src="./script.js"></script> -->
   </body>
 </html>
